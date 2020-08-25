@@ -3,12 +3,15 @@ Program to find Sum of Even and Odd Numbers from 1 to n.
 
 This program allows the user to enter the maximum limit value. Next, this C program calculate the sum of even and odd numbers between 1 and the maximum limit value.
 
-if ( number % 2 == 0 )
+#### if ( number % 2 == 0 )
+```
 Any number that is completely divisible 2 is even number. If condition check whether the remainder of the number divided by 2 is exactly equal to 0 or not.
 
 If the condition is True, it is Even number.
 If the condition is False, it is an Odd number.
-
+```
+### Program in C
+```
 
 #include<stdio.h>
  
@@ -35,7 +38,7 @@ int main()
 
   return 0;
 }
-
+```
 
 for(i = 1; i <= number; i++)
 In the Next line, We declared the If statement
